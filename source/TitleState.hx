@@ -540,7 +540,7 @@ class TitleState extends MusicBeatState
 		if(textGroup != null && credGroup != null) {
 			var coolText:Alphabet = new Alphabet(0, 0, text, true, false);
 			//coolText.screenCenter(X);
-			coolText.x 150;
+			coolText.x = 150;
 			coolText.y += (textGroup.length * 60) + 200 + offset;
 			credGroup.add(coolText);
 			textGroup.add(coolText);
